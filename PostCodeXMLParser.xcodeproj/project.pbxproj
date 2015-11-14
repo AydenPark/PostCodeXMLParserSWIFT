@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24408AD1BF709FF00BA27D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408AC1BF709FF00BA27D0 /* AppDelegate.swift */; };
+		D24408AF1BF709FF00BA27D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408AE1BF709FF00BA27D0 /* ViewController.swift */; };
+		D24408B21BF709FF00BA27D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24408B01BF709FF00BA27D0 /* Main.storyboard */; };
+		D24408B51BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D24408B31BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld */; };
+		D24408B71BF709FF00BA27D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24408B61BF709FF00BA27D0 /* Assets.xcassets */; };
+		D24408BA1BF709FF00BA27D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24408B81BF709FF00BA27D0 /* LaunchScreen.storyboard */; };
+		D24408C51BF709FF00BA27D0 /* PostCodeXMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408C41BF709FF00BA27D0 /* PostCodeXMLParserTests.swift */; };
+		D24408D01BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408CF1BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24408C11BF709FF00BA27D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24408A11BF709FF00BA27D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24408A81BF709FF00BA27D0;
+			remoteInfo = PostCodeXMLParser;
+		};
+		D24408CC1BF709FF00BA27D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24408A11BF709FF00BA27D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24408A81BF709FF00BA27D0;
+			remoteInfo = PostCodeXMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24408A91BF709FF00BA27D0 /* PostCodeXMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCodeXMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24408AC1BF709FF00BA27D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24408AE1BF709FF00BA27D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24408B11BF709FF00BA27D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24408B41BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostCodeXMLParser.xcdatamodel; sourceTree = "<group>"; };
+		D24408B61BF709FF00BA27D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24408B91BF709FF00BA27D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24408BB1BF709FF00BA27D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24408C01BF709FF00BA27D0 /* PostCodeXMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCodeXMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24408C41BF709FF00BA27D0 /* PostCodeXMLParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCodeXMLParserTests.swift; sourceTree = "<group>"; };
+		D24408C61BF709FF00BA27D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24408CB1BF709FF00BA27D0 /* PostCodeXMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCodeXMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24408CF1BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCodeXMLParserUITests.swift; sourceTree = "<group>"; };
+		D24408D11BF709FF00BA27D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24408A61BF709FF00BA27D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408BD1BF709FF00BA27D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408C81BF709FF00BA27D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24408A01BF709FF00BA27D0 = {
+			isa = PBXGroup;
+			children = (
+				D24408AB1BF709FF00BA27D0 /* PostCodeXMLParser */,
+				D24408C31BF709FF00BA27D0 /* PostCodeXMLParserTests */,
+				D24408CE1BF709FF00BA27D0 /* PostCodeXMLParserUITests */,
+				D24408AA1BF709FF00BA27D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24408AA1BF709FF00BA27D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24408A91BF709FF00BA27D0 /* PostCodeXMLParser.app */,
+				D24408C01BF709FF00BA27D0 /* PostCodeXMLParserTests.xctest */,
+				D24408CB1BF709FF00BA27D0 /* PostCodeXMLParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24408AB1BF709FF00BA27D0 /* PostCodeXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				D24408AC1BF709FF00BA27D0 /* AppDelegate.swift */,
+				D24408AE1BF709FF00BA27D0 /* ViewController.swift */,
+				D24408B01BF709FF00BA27D0 /* Main.storyboard */,
+				D24408B61BF709FF00BA27D0 /* Assets.xcassets */,
+				D24408B81BF709FF00BA27D0 /* LaunchScreen.storyboard */,
+				D24408BB1BF709FF00BA27D0 /* Info.plist */,
+				D24408B31BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld */,
+			);
+			path = PostCodeXMLParser;
+			sourceTree = "<group>";
+		};
+		D24408C31BF709FF00BA27D0 /* PostCodeXMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24408C41BF709FF00BA27D0 /* PostCodeXMLParserTests.swift */,
+				D24408C61BF709FF00BA27D0 /* Info.plist */,
+			);
+			path = PostCodeXMLParserTests;
+			sourceTree = "<group>";
+		};
+		D24408CE1BF709FF00BA27D0 /* PostCodeXMLParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24408CF1BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift */,
+				D24408D11BF709FF00BA27D0 /* Info.plist */,
+			);
+			path = PostCodeXMLParserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24408A81BF709FF00BA27D0 /* PostCodeXMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24408D41BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParser" */;
+			buildPhases = (
+				D24408A51BF709FF00BA27D0 /* Sources */,
+				D24408A61BF709FF00BA27D0 /* Frameworks */,
+				D24408A71BF709FF00BA27D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostCodeXMLParser;
+			productName = PostCodeXMLParser;
+			productReference = D24408A91BF709FF00BA27D0 /* PostCodeXMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24408BF1BF709FF00BA27D0 /* PostCodeXMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24408D71BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParserTests" */;
+			buildPhases = (
+				D24408BC1BF709FF00BA27D0 /* Sources */,
+				D24408BD1BF709FF00BA27D0 /* Frameworks */,
+				D24408BE1BF709FF00BA27D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24408C21BF709FF00BA27D0 /* PBXTargetDependency */,
+			);
+			name = PostCodeXMLParserTests;
+			productName = PostCodeXMLParserTests;
+			productReference = D24408C01BF709FF00BA27D0 /* PostCodeXMLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24408CA1BF709FF00BA27D0 /* PostCodeXMLParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24408DA1BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParserUITests" */;
+			buildPhases = (
+				D24408C71BF709FF00BA27D0 /* Sources */,
+				D24408C81BF709FF00BA27D0 /* Frameworks */,
+				D24408C91BF709FF00BA27D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24408CD1BF709FF00BA27D0 /* PBXTargetDependency */,
+			);
+			name = PostCodeXMLParserUITests;
+			productName = PostCodeXMLParserUITests;
+			productReference = D24408CB1BF709FF00BA27D0 /* PostCodeXMLParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24408A11BF709FF00BA27D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Ayden;
+				TargetAttributes = {
+					D24408A81BF709FF00BA27D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D24408BF1BF709FF00BA27D0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D24408A81BF709FF00BA27D0;
+					};
+					D24408CA1BF709FF00BA27D0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D24408A81BF709FF00BA27D0;
+					};
+				};
+			};
+			buildConfigurationList = D24408A41BF709FF00BA27D0 /* Build configuration list for PBXProject "PostCodeXMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24408A01BF709FF00BA27D0;
+			productRefGroup = D24408AA1BF709FF00BA27D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24408A81BF709FF00BA27D0 /* PostCodeXMLParser */,
+				D24408BF1BF709FF00BA27D0 /* PostCodeXMLParserTests */,
+				D24408CA1BF709FF00BA27D0 /* PostCodeXMLParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24408A71BF709FF00BA27D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24408BA1BF709FF00BA27D0 /* LaunchScreen.storyboard in Resources */,
+				D24408B71BF709FF00BA27D0 /* Assets.xcassets in Resources */,
+				D24408B21BF709FF00BA27D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408BE1BF709FF00BA27D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408C91BF709FF00BA27D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24408A51BF709FF00BA27D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24408B51BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld in Sources */,
+				D24408AF1BF709FF00BA27D0 /* ViewController.swift in Sources */,
+				D24408AD1BF709FF00BA27D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408BC1BF709FF00BA27D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24408C51BF709FF00BA27D0 /* PostCodeXMLParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24408C71BF709FF00BA27D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24408D01BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24408C21BF709FF00BA27D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24408A81BF709FF00BA27D0 /* PostCodeXMLParser */;
+			targetProxy = D24408C11BF709FF00BA27D0 /* PBXContainerItemProxy */;
+		};
+		D24408CD1BF709FF00BA27D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24408A81BF709FF00BA27D0 /* PostCodeXMLParser */;
+			targetProxy = D24408CC1BF709FF00BA27D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24408B01BF709FF00BA27D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24408B11BF709FF00BA27D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24408B81BF709FF00BA27D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24408B91BF709FF00BA27D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24408D21BF709FF00BA27D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24408D31BF709FF00BA27D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24408D51BF709FF00BA27D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCodeXMLParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D24408D61BF709FF00BA27D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostCodeXMLParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D24408D81BF709FF00BA27D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PostCodeXMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostCodeXMLParser.app/PostCodeXMLParser";
+			};
+			name = Debug;
+		};
+		D24408D91BF709FF00BA27D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PostCodeXMLParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostCodeXMLParser.app/PostCodeXMLParser";
+			};
+			name = Release;
+		};
+		D24408DB1BF709FF00BA27D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PostCodeXMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PostCodeXMLParser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D24408DC1BF709FF00BA27D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PostCodeXMLParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AydenPark.PostCodeXMLParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PostCodeXMLParser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24408A41BF709FF00BA27D0 /* Build configuration list for PBXProject "PostCodeXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24408D21BF709FF00BA27D0 /* Debug */,
+				D24408D31BF709FF00BA27D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24408D41BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24408D51BF709FF00BA27D0 /* Debug */,
+				D24408D61BF709FF00BA27D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24408D71BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24408D81BF709FF00BA27D0 /* Debug */,
+				D24408D91BF709FF00BA27D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24408DA1BF709FF00BA27D0 /* Build configuration list for PBXNativeTarget "PostCodeXMLParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24408DB1BF709FF00BA27D0 /* Debug */,
+				D24408DC1BF709FF00BA27D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D24408B31BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D24408B41BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodel */,
+			);
+			currentVersion = D24408B41BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodel */;
+			path = PostCodeXMLParser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D24408A11BF709FF00BA27D0 /* Project object */;
+}
