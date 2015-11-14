@@ -23,7 +23,7 @@ class PostCodeXMLParserTests: XCTestCase {
     
     func testExample() {
         let strDong: NSString = "덕계동"
-        let strRegKey: NSString = "cc14f623705617f041447327250896"
+        let strRegKey: NSString = "API Reg Key"
         
         let postcode = PostCodeXMLParser()
         
