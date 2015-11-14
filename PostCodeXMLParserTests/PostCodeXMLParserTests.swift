@@ -22,8 +22,18 @@ class PostCodeXMLParserTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let strDong: NSString = "덕계동"
+        let strRegKey: NSString = "cc14f623705617f041447327250896"
+        
+        let postcode = PostCodeXMLParser()
+        
+        let arrResult = postcode.getPostCode(strDong, strReg: strRegKey)
+        
+        for n in 0...arrResult.count-1 {
+            let strPostcode: NSString = arrResult.objectAtIndex(n).objectForKey("postcode") as! NSString
+            let strAddr: NSString = arrResult.objectAtIndex(n).objectForKey("address") as! NSString
+            NSLog("%@ - %@", strPostcode, strAddr)
+        }
     }
     
     func testPerformanceExample() {
