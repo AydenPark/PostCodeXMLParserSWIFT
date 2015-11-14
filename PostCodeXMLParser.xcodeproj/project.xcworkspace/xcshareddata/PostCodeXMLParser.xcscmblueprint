@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5536D0DF1564DAC2FC6C8F372978296528D036B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CA4CFEB4353B127C780E2B566CF0A50DCBAEEE03" : 0,
+    "5536D0DF1564DAC2FC6C8F372978296528D036B2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "556DE7DE-DEBF-4313-BF81-6C24A9A455F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CA4CFEB4353B127C780E2B566CF0A50DCBAEEE03" : "commerce\/",
+    "5536D0DF1564DAC2FC6C8F372978296528D036B2" : "PostCodeXMLParser\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PostCodeXMLParser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PostCodeXMLParser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AydenPark\/PostCodeXMLParserSWIFT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5536D0DF1564DAC2FC6C8F372978296528D036B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AydenPark\/commerce_dev.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA4CFEB4353B127C780E2B566CF0A50DCBAEEE03"
+    }
+  ]
+}

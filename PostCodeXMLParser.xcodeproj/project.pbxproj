@@ -15,8 +15,8 @@
 		D24408BA1BF709FF00BA27D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24408B81BF709FF00BA27D0 /* LaunchScreen.storyboard */; };
 		D24408C51BF709FF00BA27D0 /* PostCodeXMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408C41BF709FF00BA27D0 /* PostCodeXMLParserTests.swift */; };
 		D24408D01BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408CF1BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift */; };
-		D24408DE1BF70A3C00BA27D0 /* PostCodeXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408DD1BF70A3C00BA27D0 /* PostCodeXMLParser.swift */; };
 		D24408E21BF70BCC00BA27D0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D24408E11BF70BCC00BA27D0 /* README.md */; };
+		D24408E41BF70EEF00BA27D0 /* PostCodeXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24408E31BF70EEF00BA27D0 /* PostCodeXMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		D24408CB1BF709FF00BA27D0 /* PostCodeXMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCodeXMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24408CF1BF709FF00BA27D0 /* PostCodeXMLParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCodeXMLParserUITests.swift; sourceTree = "<group>"; };
 		D24408D11BF709FF00BA27D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D24408DD1BF70A3C00BA27D0 /* PostCodeXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCodeXMLParser.swift; path = ../../commerce/commerce/PostCodeXMLParser.swift; sourceTree = "<group>"; };
 		D24408E11BF70BCC00BA27D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../Downloads/DKPostCodeXMLParser-master-2/README.md"; sourceTree = "<group>"; };
+		D24408E31BF70EEF00BA27D0 /* PostCodeXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCodeXMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		D24408AB1BF709FF00BA27D0 /* PostCodeXMLParser */ = {
 			isa = PBXGroup;
 			children = (
-				D24408DD1BF70A3C00BA27D0 /* PostCodeXMLParser.swift */,
+				D24408E31BF70EEF00BA27D0 /* PostCodeXMLParser.swift */,
 				D24408AC1BF709FF00BA27D0 /* AppDelegate.swift */,
 				D24408AE1BF709FF00BA27D0 /* ViewController.swift */,
 				D24408B01BF709FF00BA27D0 /* Main.storyboard */,
@@ -265,8 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24408E41BF70EEF00BA27D0 /* PostCodeXMLParser.swift in Sources */,
 				D24408B51BF709FF00BA27D0 /* PostCodeXMLParser.xcdatamodeld in Sources */,
-				D24408DE1BF70A3C00BA27D0 /* PostCodeXMLParser.swift in Sources */,
 				D24408E21BF70BCC00BA27D0 /* README.md in Sources */,
 				D24408AF1BF709FF00BA27D0 /* ViewController.swift in Sources */,
 				D24408AD1BF709FF00BA27D0 /* AppDelegate.swift in Sources */,
